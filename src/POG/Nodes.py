@@ -73,7 +73,7 @@ class SuccessorManager:
     def __len__(self):
         return len(self.successors)
 
+    def __str__(self):
+        return str(self.successors)
 
-
-
-
+    __repr__ = __str__

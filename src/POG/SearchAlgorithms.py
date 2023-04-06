@@ -1,3 +1,4 @@
+"""Implementation of multiple search algorithms"""
 from POG.Nodes import Node
 
 
