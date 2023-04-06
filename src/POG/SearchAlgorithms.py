@@ -2,6 +2,7 @@ from POG.Nodes import Node
 
 
 def dijkstra(n: Node):
+    """Returns a dictionary with all accessible nodes and the cost to get to them."""
     costs = {n: 0}
     black = []
     grey = [successor for successor in n.get_successors()]
