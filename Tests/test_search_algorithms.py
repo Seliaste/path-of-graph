@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from Graph.Nodes import Node
-from Graph.SearchAlgorithms import dijsktra
+from POG.Nodes import Node
+from POG.SearchAlgorithms import dijsktra
 
 
 class Test(TestCase):
