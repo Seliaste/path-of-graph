@@ -1,7 +1,7 @@
 from POG.Nodes import Node
 
 
-def dijsktra(n: Node):
+def dijkstra(n: Node):
     costs = {n: 0}
     black = []
     grey = [successor for successor in n.get_successors()]

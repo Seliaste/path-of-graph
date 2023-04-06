@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from POG.Nodes import Node
-from POG.SearchAlgorithms import dijsktra
+from POG.SearchAlgorithms import dijkstra
 
 
 class Test(TestCase):
@@ -20,10 +20,10 @@ class Test(TestCase):
         d.add(c, 5)
         e.add(b, 7)
 
-        self.assertEqual(dijsktra(a), {a: 0, d: 2, e: 3, c: 7, b: 10})
+        self.assertEqual(dijkstra(a), {a: 0, d: 2, e: 3, c: 7, b: 10})
 
     def test_dijsktra_small(self):
         a = Node("A")
 
-        self.assertEqual(dijsktra(a), {a: 0})
+        self.assertEqual(dijkstra(a), {a: 0})
 
