@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "path-of-graph"
+version = "0.0.1"
+authors = [
+  { name="Seliaste", email="none@seliaste.com" },
+]
+description = "A small python library for (very) basic graph usage"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Seliaste/path-of-graph"
+"Bug Tracker" = "https://github.com/Seliaste/path-of-graph/issues"
